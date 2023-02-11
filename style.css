@@ -1,7 +1,8 @@
 body {
   color: #fff;
-  background-color: #000;
+  background-color: #1e1b1b;
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 ul,
 li {
@@ -14,6 +15,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 .section-text.flex-2 {
   margin-top: 100px;
@@ -35,6 +37,11 @@ li {
     scale: 1;
   }
 }
+
+.sobre-mim p {
+  background-color: red;
+  animation-name: none;
+}
 .img-profile {
   display: flex;
   justify-content: center;
@@ -50,7 +57,7 @@ li {
   border: 10px solid white;
   border-radius: 100%;
 }
-.section-text p {
+.animate-p {
   display: block;
   width: 200px;
   border-radius: 20px;
@@ -59,7 +66,7 @@ li {
   margin: 0 auto;
   animation-name: animate-p;
   animation-duration: 2s;
-  animation-iteration-count: infinite;
+  /* animation-iteration-count: infinite; */
 }
 
 .section-text .btns {
@@ -119,7 +126,27 @@ li {
   background-color: #fff;
   color: #000;
 }
+.sobre-mim {
+  margin: 0 auto;
+  width: 500px;
+  font-size: 22px;
+}
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1e1b1b;
+  border-top: 1px solid #dddddd21;
+}
+footer p {
+  margin-bottom: 0;
+}
+footer h3 {
+  font-size: 15px;
+  font-weight: normal;
+}
 .list-skills li:nth-child(6) {
   background-color: rgb(12, 135, 12);
 }
@@ -136,5 +163,15 @@ li {
   }
   .sub-principal-content {
     flex-direction: column;
+  }
+  footer p {
+    font-size: 15px;
+  }
+  footer h3 {
+    font-size: 13px;
+  }
+  .sobre-mim {
+    width: 350px;
+    font-size: 18px;
   }
 }

@@ -6,7 +6,7 @@ body {
 
 .section-text {
   /* background-color: red; */
-  margin-top: 250px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,6 +94,26 @@ body {
   flex: 1;
 }
 
+.sub-principal-desc ul {
+  list-style: none;
+}
+.sub-principal-desc li {
+  padding: 5px;
+  background-color: red;
+  margin: 5px;
+}
+.sub-principal-desc li:nth-child(4) {
+  background-color: orange;
+  color: #000;
+}
+.sub-principal-desc li:nth-child(1) {
+  background-color: #fff;
+  color: #000;
+}
+
+.sub-principal-desc li:nth-child(6) {
+  background-color: rgb(12, 135, 12);
+}
 .sub-principal-img {
   flex: 1;
 }

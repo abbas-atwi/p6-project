@@ -186,6 +186,9 @@ footer h3 {
     width: 350px;
     padding: 0;
   }
+  .body-modal {
+    margin-top: -90px;
+  }
 }
 .body-modal {
   margin-top: 650px;
@@ -225,7 +228,7 @@ footer h3 {
   padding: 10px;
   border-radius: 10px;
 }
-/* 
+
 @keyframes modal {
   100% {
     background-color: #fff;
@@ -236,4 +239,4 @@ footer h3 {
   animation-name: modal;
   animation-duration: 2s;
   animation-fill-mode: both;
-} */
+}

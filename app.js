@@ -5,4 +5,7 @@ btn.addEventListener("click", (e) => {
   if ((modals.style.display = "none")) {
     modals.style.display = "flex";
   }
+  setInterval(() => {
+    modals.style.display = "none";
+  }, 1000);
 });

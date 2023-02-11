@@ -2,9 +2,12 @@ body {
   color: #fff;
   background-color: #000;
   font-family: Arial, Helvetica, sans-serif;
-  list-style: none;
 }
-
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+}
 .section-text {
   /* background-color: red; */
   margin-top: 50px;

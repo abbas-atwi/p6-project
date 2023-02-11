@@ -54,7 +54,7 @@ li {
   width: 200px;
   margin-left: -30px;
   height: 200px;
-  border: 10px solid white;
+  border: 5px solid rgb(250, 158, 53);
   border-radius: 100%;
 }
 .animate-p {
@@ -79,7 +79,7 @@ li {
 }
 
 .btns a {
-  display: block;
+  display: inline-block;
   padding: 15px 22px;
   background-color: rgb(24, 140, 111);
   margin-left: 5px;
@@ -89,6 +89,7 @@ li {
   text-decoration: none;
   text-align: center;
   color: #fff;
+  cursor: pointer;
 }
 
 .sub-principal-content {
@@ -99,8 +100,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  /* flex: 1; */
+  flex: 1;
 }
 
 .list-skills {
@@ -174,4 +174,66 @@ footer h3 {
     width: 350px;
     font-size: 18px;
   }
+  .sub-principal-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+  }
+  .sub-principal-img img {
+    width: 350px;
+    padding: 0;
+  }
 }
+.body-modal {
+  margin-top: 650px;
+  position: absolute;
+  display: none;
+  margin-top: -180px;
+  justify-content: center;
+  width: 100vw;
+  height: calc(100vh - 600px);
+  /* background-color: yellow; */
+}
+.modal-contact {
+  display: flex;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  z-index: 99;
+  background-color: rgb(47, 47, 47);
+}
+.modal-contact ul,
+.modal-contact li,
+.modal-contact a {
+  list-style: none;
+  text-decoration: none;
+}
+.modal-contact ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-contact a {
+  display: block;
+  font-size: 22px;
+  color: #fff;
+  font-weight: normal;
+  padding: 10px;
+  border-radius: 10px;
+}
+/* 
+@keyframes modal {
+  100% {
+    background-color: #fff;
+    color: #000;
+  }
+}
+.modal-contact a:hover {
+  animation-name: modal;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+} */

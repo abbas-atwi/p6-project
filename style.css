@@ -156,6 +156,15 @@ footer h3 {
 .sub-principal-img img {
   width: 100%;
 }
+/* responsivo
+
+
+
+
+
+
+
+*/
 @media (max-width: 500px) {
   .btns {
     width: 200px;
@@ -186,7 +195,19 @@ footer h3 {
     width: 350px;
     padding: 0;
   }
+  .modal-contact {
+    margin-top: 900px;
+  }
 }
+/* 
+
+
+
+
+
+
+
+*/
 .body-modal {
   margin-top: 650px;
   position: absolute;

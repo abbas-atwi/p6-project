@@ -7,5 +7,5 @@ btn.addEventListener("click", (e) => {
   }
   setInterval(() => {
     modals.style.display = "none";
-  }, 1000);
+  }, 3000);
 });

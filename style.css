@@ -1,7 +1,6 @@
 body {
-  color: #fff;
-  background-color: #000;
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 .section-text {
@@ -84,6 +83,7 @@ body {
 
 .sub-principal-content {
   display: flex;
+  /* background-color: red; */
 }
 .sub-principal-desc {
   display: flex;
@@ -91,13 +91,20 @@ body {
   justify-content: center;
   align-items: center;
 
-  flex: 1;
+  /* flex: 1; */
 }
 
-.sub-principal-desc ul {
+.list-skills {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.list-skills li {
   list-style: none;
 }
-.sub-principal-desc li {
+.list-skills li {
   padding: 5px;
   background-color: red;
   margin: 5px;
@@ -106,12 +113,12 @@ body {
   background-color: orange;
   color: #000;
 }
-.sub-principal-desc li:nth-child(1) {
+.list-skills li:nth-child(1) {
   background-color: #fff;
   color: #000;
 }
 
-.sub-principal-desc li:nth-child(6) {
+.list-skills li:nth-child(6) {
   background-color: rgb(12, 135, 12);
 }
 .sub-principal-img {

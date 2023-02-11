@@ -186,15 +186,16 @@ footer h3 {
     width: 350px;
     padding: 0;
   }
-  .body-modal {
-    margin-top: -150px;
+  .modal-contact {
+    margin-top: 300px;
   }
 }
 .body-modal {
   margin-top: 650px;
   position: absolute;
   display: none;
-  margin-top: -180px;
+  margin-top: -300px;
+
   justify-content: center;
   width: 100vw;
   height: calc(100vh - 600px);
@@ -203,6 +204,7 @@ footer h3 {
 .modal-contact {
   display: flex;
   position: absolute;
+  margin-top: 80px;
   width: 200px;
   height: 200px;
   border-radius: 20px;

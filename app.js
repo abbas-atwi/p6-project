@@ -6,7 +6,3 @@ btn.addEventListener("click", (e) => {
     modals.style.display = "flex";
   }
 });
-
-body.addEventListener("click", () => {
-  modals.style.display = "none";
-});

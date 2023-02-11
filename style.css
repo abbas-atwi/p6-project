@@ -1,6 +1,15 @@
+body {
+  color: #fff;
+  background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .section-text {
   /* background-color: red; */
   margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .section-text.flex-2 {
   margin-top: 100px;
@@ -10,8 +19,45 @@
   text-align: center;
 }
 
+/* Animation p */
+
+@keyframes animate-p {
+  0% {
+    color: #fff;
+  }
+  50% {
+    background-color: rgb(248, 248, 248);
+    color: #000;
+  }
+  100% {
+    scale: 1;
+  }
+}
+.img-profile {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  padding: 10px;
+
+  /* border-radius: 100%; */
+}
+.img-profile img {
+  width: 200px;
+  margin-left: -30px;
+  height: 200px;
+  border: 10px solid white;
+  border-radius: 100%;
+}
 .section-text p {
+  display: block;
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px;
   text-align: center;
+  margin: 0 auto;
+  animation-name: animate-p;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .section-text .btns {
@@ -26,7 +72,7 @@
 .btns a {
   display: block;
   padding: 15px 22px;
-  background-color: blue;
+  background-color: rgb(24, 140, 111);
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 10px;
